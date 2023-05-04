@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #A4F4EA;
+    color: #4400FF;
+    font-family: Arial, monospace;
+}
+
+/*-----Logo-----*/
+img {
+    width: 450px;
+}
+
+/*-----Historico-----*/
+.div_principal {
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: Arial, monospace;
+
+}
+
+.recorde {
+    margin: 10px auto;
+    width: 430px;
+    padding: 30px;
+    border: 1px solid #6b6e6f;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    color: #4400FF;
+
+}
+
+/*-----Botão-----*/
+.botao {
+    height: 60px;
+    width: 300px;
+    border: 1px solid #6b6e6f;
+    border-radius: 10px;
+    background-color: #4400FF;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.botao:hover {
+    color: #000000FF;
+    background-color: #D9FF79;
+}
+
+.icon {
+
+    width: 30px;
+
+}
+.esq{
+    display:inline-block;
+    margin-right: 60px;
+}
+.drt{
+    display:inline-block;
+}

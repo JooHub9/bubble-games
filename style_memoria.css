@@ -1,0 +1,214 @@
+body {
+    background-color: #A4F4EA;
+    color: #4400FF;
+    font-family: Arial, monospace;
+}
+
+.first_div {
+    display: block;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.player {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.name {
+    height: 40px;
+    width: 300px;
+    text-align: center;
+    background-color: #FFFFFF;
+    border: 1px solid #868282;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: text;
+}
+
+.level {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.buttons {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.easy {
+    height: 60px;
+    width: 300px;
+    border: 1px solid #6b6e6f;
+    border-radius: 10px;
+    background-color: #4400FF;
+    color: #FFFFFF;
+    font-size: 20px;
+    /*margin-top: 35px;
+    width: 350px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: lightblue;
+    text-decoration-color: darkslategray;
+    font-size: 20px;*/
+}
+
+.easy:hover {
+    color: #000000FF;
+    background-color: #D9FF79;
+}
+
+.medium {
+    height: 60px;
+    width: 300px;
+    border: 1px solid #6b6e6f;
+    border-radius: 10px;
+    background-color: #4400FF;
+    color: #FFFFFF;
+    font-size: 20px;
+    /*margin-top: 10px;
+    width: 350px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: lightblue;
+    text-decoration-color: darkslategray;
+    font-size: 20px;*/
+}
+
+.medium:hover {
+    color: #000000FF;
+    background-color: #D9FF79;
+}
+
+.hard {
+    height: 60px;
+    width: 300px;
+    border: 1px solid #6b6e6f;
+    border-radius: 10px;
+    background-color: #4400FF;
+    color: #FFFFFF;
+    font-size: 20px;
+    /*margin-top: 10px;
+    width: 350px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: lightblue;
+    text-decoration-color: darkslategray;
+    font-size: 20px;
+    margin-bottom: 15px;*/
+}
+
+.hard:hover {
+    color: #000000FF;
+    background-color: #D9FF79;
+}
+
+.div2 {
+    display: none;
+}
+
+.second_div {
+    padding: 50px;
+}
+
+.game {
+    text-align: center;
+    font-size: 60px;
+    font-family: Jumpman, cursive;
+}
+
+.timer {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.container {
+    margin-top: 75px;
+    border-radius: 25px;
+    background-color: #4400FF;
+    width: 600px;
+}
+
+.row {
+    border-radius: 50px;
+    border: black;
+    border: 10px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.col-3 {
+    padding-left: 35px;
+    padding-bottom: 25px;
+}
+
+.card {
+    width: 85px;
+    background-color: #D9FF79;
+    border-radius: 25px;
+}
+
+.card_images.acertou {
+    background-color: #A4F4EA;
+    border-radius: 25px;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #FFFFFF;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #6b6e6f;
+    border-radius: 15px;
+    width: 35%; /* Could be more or less, depending on screen size */
+    height: 40%;
+    text-align: center;
+    font-size: 25px;
+}
+
+.menubtn {
+    margin-top: 45px;
+    height: 60px;
+    width: 300px;
+    border: 1px solid #6b6e6f;
+    border-radius: 10px;
+    background-color: #4400FF;
+    color: #FFFFFF;
+    /*margin-top: 50px;
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: lightblue;
+    text-decoration-color: darkslategray;
+    font-size: 20px;
+    margin-bottom: 10px;*/
+}
+
+.menubtn:hover {
+    color: #000000FF;
+    background-color: #D9FF79;
+}
+
+.div3 {
+    display: none;
+}
+
+.div4 {
+    display: none;
+}

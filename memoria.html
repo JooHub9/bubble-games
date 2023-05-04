@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jogo da Memória</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style_memoria.css">
+    <style>
+        .card_images {
+            opacity: 0;
+        }
+
+        .card_images.visible{
+            opacity: 1;
+        }
+
+        .card_images.acertou{
+            opacity: 1;
+        }
+
+        /*.card_images_medium {
+            opacity: 0;
+        }
+
+        .card_images_medium.visible {
+            opacity: 1;
+        }
+
+        .card_images_medium.acertou {
+            opacity: 1;
+        }
+
+        .card_images_hard {
+            opacity: 0;
+        }
+
+        .card_images_hard.visible {
+            opacity: 1;
+        }
+
+        .card_images_hard.acertou {
+            opacity: 1;
+        }*/
+    </style>
+</head>
+<body>
+<div class="first_div"><h1 class="game">Jogo da Memória</h1>
+    <h3 class="player" style="text-align: center">Quem está a jogar?</h3>
+    <h3 style="text-align: center">
+        <label>
+        <input class="name" type="text" name="name" placeholder="Nome" style="text-align: center">
+    </label></h3>
+    <h4 class="level" style="text-align: center">Escolher nível de dificuldade:</h4>
+    <p style="text-align: center"><button class="easy" type="button">Fácil 3x4</button></p>
+    <p style="text-align: center"><button class="medium" type="button">Médio 4x4</button></p>
+    <p style="text-align: center"><button class="hard" type="button">Difícil 4x5</button></p>
+    </div>
+<div>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <p>Parabéns!</p>
+            <p style="text-align: center"><button class="menubtn" type="button">Menu</button></p>
+        </div>
+    </div>
+</div>
+<section>
+    <div class="div2">
+
+    </div>
+    <div class="div3">
+
+    </div>
+    <div class="div4">
+
+    </div>
+</section>
+</body>
+<script src="script_memoria.js"></script>
+</html>

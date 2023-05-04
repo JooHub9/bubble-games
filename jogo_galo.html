@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt" xmlns="http://www.w3.org/1999/html">
+<head>
+
+    <title>Jogo do Galo</title>
+    <link rel="stylesheet" href="style_jogo_galo.css">
+    <meta charset="utf-8">
+</head>
+
+<!--<body onload="startTime()">-->
+
+<script>
+
+</script>
+<h1 class="titulo"> Jogo do Galo</h1>
+
+<div class="pagina1">
+    <p>Quem está a jogar?</p>
+    <label for="nome_jogador1"></label>
+    <input id="nome_jogador1" class="nomeJogadores" type="text" name="" placeholder="Jogador 1">
+
+    <p><label for="nome_jogador2"></label>
+    <p><em>VS</em></p>
+    <input id="nome_jogador2" class="nomeJogadores" type="text" name="" placeholder="Jogador 2"></p>
+    <button id="botaoComecar" class="botao" type="button">Começar!</button>
+
+</div>
+
+
+<div class="pagina2" style="display: none">
+
+    <div class="tituloTimer">
+
+        <div class="timer"><h2>00:00</h2></div>
+    </div>
+
+    <div class="jogadoresRonda">
+        <div class="jogadores">
+            <div class="jogadorContador jogadorAtivo">
+                <div id="jogador1" class=" jogador jogadorEsquerda"></div>
+                <div id="contadorJ1"></div>
+            </div>
+            <div class="ronda">Ronda</div>
+            <div class="jogadorContador2">
+                <div id="jogador2" class="jogador jogadorDireita"></div>
+                <div id="contadorJ2"></div>
+            </div>
+        </div>
+        <div class="ronda2"><span>0</span>/<span id="totalRondas"></span></div>
+    </div>
+    <main>
+        <div class="game">
+            <button id="caixa_1"></button>
+            <button id="caixa_2"></button>
+            <button id="caixa_3"></button>
+            <button id="caixa_4"></button>
+            <button id="caixa_5"></button>
+            <button id="caixa_6"></button>
+            <button id="caixa_7"></button>
+            <button id="caixa_8"></button>
+            <button id="caixa_9"></button>
+        </div>
+
+
+    </main>
+    <script src="script_jogo_galo.js"></script>
+
+</div>
+
+<div class="popup" style="display: none">
+    <h3 id="vencedor"></h3>
+    <p>
+        <button id="menu" class="botao"> Nova Ronda</button>
+    </p>
+</div>
+</div>
+
+</body>
+</div>
+</html>
+

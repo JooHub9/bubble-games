@@ -1,0 +1,155 @@
+/*Este box-sizing permite ajustar o tamanho dos elementos, retirando espaços em branco*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #A4F4EA;
+    color: #4400FF;
+    font-family: Arial, monospace;
+}
+
+/*-----Layout Pagina 1-----*/
+.formulario {
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: Arial,monospace;
+}
+
+.nome_jogadores {
+    height: 40px;
+    width: 300px;
+    text-align: center;
+    background-color: #FFFFFF;
+    border: 1px solid #868282;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: text;
+}
+
+.botao {
+    height: 60px;
+    width: 300px;
+    border: 1px solid #6b6e6f;
+    border-radius: 10px;
+    background-color: #4400FF;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.botao:hover {
+    color: #000000FF;
+    background-color: #D9FF79;
+    cursor: pointer;
+}
+
+
+/*-----Layout Pagina 2-----*/
+.pagina2 {
+    display: none;
+}
+
+/*Cabecalho*/
+
+#jogo {
+    font-family: Jumpman, cursive;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.tempo {
+    display: flex;
+    justify-content: center;
+}
+
+.jogadores {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+    font-size: 20px;
+
+}
+
+.jogadores div {
+    padding: 40px 80px;
+    border-radius: 10px;
+}
+
+.jogadorAtualStyle {
+    border: 2px solid #32CD32FF;
+    border-radius: 10px;
+}
+
+/*-----Tabuleiro-----*/
+
+#grelha {
+    display: flex;
+    justify-content: center;
+    width: 651px;
+    height: 500px;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-color: #4400FF;
+}
+
+.grelha_col {
+    display: flex;
+    flex-direction: column;
+    /*border: 1px solid black;*/
+    width: 93px;
+    height: 500px;
+
+}
+
+.grelha_col:hover {
+    background-color: #32CD32FF;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.quadrado {
+    display: flex;
+    height: 85px;
+    /*border: 1px solid black;*/
+}
+
+.bola {
+    display: inline-flex;
+    width: 50px;
+    margin: 15px 20px;
+    border-radius: 50%;
+    background-color: #FFFFFFFF;
+}
+
+
+/*-----Discos-----*/
+.jogador1 {
+    background-color: #FFFF00FF;
+}
+
+
+.jogador2 {
+    background-color: #ff0000;
+}
+
+
+
+/*-----JanelaVitoria-----*/
+
+.janelaVitoria {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border: 1px solid #6b6e6f;
+    border-radius: 10px;
+    padding: 15px 70px;
+    background-color: #ffffff;
+    display: none;
+}

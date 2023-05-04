@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quatro em linha</title>
+    <link rel="stylesheet" href="style_quatro_em_linha.css">
+</head>
+
+<div class="janelaVitoria">
+    <h3 id="vencedor"></h3>
+    <p>
+        <button id="jogar" class="botao">Jogar de Novo</button>
+    </p>
+    <p>
+        <button id="menu" class="botao">Menu</button>
+    </p>
+</div>
+
+<body>
+<div><h1 id="jogo">Quatro em Linha</h1></div>
+<div class="pagina1">
+    <div class="formulario">
+        <p>Quem está a jogar?</p>
+        <input id="nomeJog1" class="nome_jogadores" type="text" placeholder="Jogador 1">
+        <p><em>VS</em></p>
+        <input id="nomeJog2" class="nome_jogadores" type="text" placeholder="Jogador 2">
+        <p>
+            <button id="comecar" class="botao">Começar!</button>
+        </p>
+    </div>
+</div>
+<div class="pagina2">
+    <div class="cabecalho">
+        <div><h2 class="tempo">00:00</h2></div>
+        <div class="jogadores">
+            <div id="jogEsquerda" class="jogadorAtualStyle"></div>
+            <div id="jogDireita"></div>
+        </div>
+    </div>
+    <div id="grelha"></div>
+</div>
+</body>
+<script src="script_quatro_em_linha.js"></script>
+</html>

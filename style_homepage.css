@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #A4F4EA;
+}
+.homepage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/*logo*/
+.titulo {
+    display: flex;
+    justify-content: center;
+}
+#logo{
+    width: 500px;
+}
+
+/*botoes*/
+button{
+    height: 60px;
+    width: 300px;
+    border: 1px solid #6b6e6f;
+    border-radius: 10px;
+    background-color: white;
+    color: #4400FF;
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: Arial, monospace;
+}
+
+button:hover {
+    color: #000000FF;
+    background-color: #D9FF79;
+    cursor: pointer;
+}
+
+.jogo{
+    padding-left: 30px;
+    padding-bottom: 5px;
+}
+
+#historico{
+    border: 1px solid #6b6e6f;
+    background-color: #4400FF;
+    color: white;
+    border-right: 30px;
+}
+
+/*icones*/
+.icon{
+    width: 30px
+}
+
+span{
+    margin-left:10px;
+}
+#solo{
+    width: 20px;
+}
